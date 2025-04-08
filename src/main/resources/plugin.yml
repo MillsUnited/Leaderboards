@@ -2,3 +2,7 @@ name: Leaderboards
 version: '1.0'
 main: com.mills.leaderboards.Main
 api-version: '1.21'
+author: mills
+commands:
+  leaderboard:
+  playtime:
