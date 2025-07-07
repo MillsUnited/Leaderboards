@@ -18,7 +18,6 @@ public final class Main extends JavaPlugin {
         Bukkit.getPluginManager().registerEvents(new KillListener(), this);
 
         getCommand("leaderboard").setExecutor(new LeaderboardCommand());
-        getCommand("playtime").setExecutor(new PlaytimeCommand());
 
     }
 
